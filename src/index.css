@@ -1,0 +1,25 @@
+:root{
+  --primary-color : #706af0;
+  --secondary-color : #f2f1ff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.primary-bgcolor{
+    background-color: var(--primary-color)!important;
+}
+
+.secondary-bgcolor{
+  background-color: var(--secondary-color)!important;
+}
+
+.primary-color{
+    color: var(--primary-color)!important;
+}
+
+.fw-lighter{
+  font-weight: lighter;
+}
