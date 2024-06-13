@@ -12,15 +12,15 @@ TodoApp is a task management application built with React.js. It features a MUI-
 
 <!-- use  -->
 
-React-icon
-Mui
-Formik form handling
-redux
-redux tookit - persist
-React-Tostify
-React-Router-Dom-v6
+React-icon,
+Mui,
+Formik form handling,
+redux,
+redux tookit - persist,
+React-Tostify,
+React-Router-Dom-v6,
 
 <!-- hook  -->
 
-useState
+useState,
 useEffect
