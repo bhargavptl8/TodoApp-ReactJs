@@ -23,6 +23,7 @@ const SignUp = () => {
     // console.log("data", data);
 
     const [showPassword, setShowPassword] = useState(false);
+
     const [initialValues, setInitialValues] = useState({
         firstName: '',
         lastName: '',

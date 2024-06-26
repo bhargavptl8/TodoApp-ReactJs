@@ -1,11 +1,11 @@
 import React from 'react'
 import { ThemeProvider, createTheme, CssBaseline } from '@mui/material'
-import { router } from './components/Router'
+// import { router } from './components/Router'
 
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import { RouterProvider } from "react-router-dom";
+// import { RouterProvider } from "react-router-dom";
 
 
 const App = () => {
@@ -38,22 +38,24 @@ const App = () => {
 
   return (
     <>
-      <RouterProvider router={router}>  
+      {/* <RouterProvider router={router}>   */}
+      <ThemeProvider theme={theme}>
         <CssBaseline />
-        <ThemeProvider theme={theme} />
-      </RouterProvider>
-      <ToastContainer
-        position="top-right"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="light"
-      />
+      </ThemeProvider>
+
+        {/* <ToastContainer
+          position="top-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+        /> */}
+      {/* </RouterProvider> */}
     </>
   )
 }
